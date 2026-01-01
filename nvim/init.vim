@@ -64,8 +64,6 @@ call plug#end()
 colorscheme gruvbox-baby
 
 
-:nnoremap j k
-:nnoremap k j
 nnoremap <C-Space> :Files<CR>
 
 " Move to previous/next
