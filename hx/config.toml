@@ -1,0 +1,44 @@
+theme = "gruber-darker"
+
+[editor]
+
+mouse = false
+
+line-number = "relative"
+
+auto-save = true
+
+auto-pairs = true
+
+rulers = [132]
+
+true-color = true
+
+[editor.statusline]
+
+left = ["mode", "spinner"]
+
+center = ["file-name", "file-modification-indicator", "read-only-indicator","total-line-numbers", "version-control",]
+
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+
+separator = "│"
+
+mode.normal = "NORMAL"
+
+mode.insert = "INSERT"
+
+mode.select = "SELECT"
+
+[editor.cursor-shape]
+
+insert = "bar"
+
+normal = "block"
+
+select = "underline"
+
+
+[editor.file-picker]
+
+hidden = false
