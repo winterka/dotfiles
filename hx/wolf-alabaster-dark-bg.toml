@@ -36,6 +36,9 @@ inherits = "wolf-alabaster-dark"
 "type" = { fg = "fg", bg = "definition-bg" }
 "type.builtin" = { fg = "fg", bg = "definition-bg" }
 
+# Return keyword
+"keyword.control.return" = { fg = "return" }
+
 # Special cases
 "tag" = { fg = "fg", bg = "definition-bg" }
 "namespace" = { fg = "fg", bg = "definition-bg" }

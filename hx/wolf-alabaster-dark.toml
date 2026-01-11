@@ -129,7 +129,7 @@ diagnostic = { underline = { style = "curl" } }
 [palette]
 # Core colors (Dark Alabaster)
 fg = "#CCCCCC"           # Main text - light grey
-bg = "#1E1E1E"           # Background - dark grey
+bg = "#0C0C0C"           # Background - dark grey
 
 # The 4 semantic colors (adjusted for dark background)
 string = "#AAD94C"       # Green - strings & numbers
@@ -145,3 +145,5 @@ active = "#0E7ACC"       # Bright blue - cursor, active elements
 highlight = "#FF9800"    # Orange - search, warnings
 error-red = "#F07178"    # Red/Pink - errors
 panel = "#252526"        # Slightly lighter grey - UI panels, menus, popups
+
+return = "#4A7BA7"
