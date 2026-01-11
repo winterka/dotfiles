@@ -24,3 +24,21 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[keys.normal]
+tab = ":buffer-next"
+S-tab = ":buffer-previous"
+
+D = ["kill_to_line_end"]
+
+[keys.normal.space]
+q = ":buffer-close"
+
+[editor.lsp]
+display-progress-messages = true
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+
+
+
