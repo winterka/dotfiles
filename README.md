@@ -3,4 +3,4 @@
 
 ## Helix
 
-[Editor](img/helix.png)
+![Editor](img/helix.png)
