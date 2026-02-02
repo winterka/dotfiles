@@ -1,0 +1,74 @@
+# 27th Jan 2026
+# Muchui William <juanmilkah@proton.me>
+# Licensed under the 0BSD license, https://opensource.org/license/0bsd
+#
+
+name = "anticuus"
+
+"ui.background" = { bg = "background" }
+"ui.cursor.primary" = { fg = "background", bg = "foreground" }
+"ui.cursor" = { fg = "background", bg = "foreground" }
+"ui.cursor.match" = { bg = "#3a3a3a" }
+"ui.linenr" = { fg = "foreground" }
+"ui.linenr.selected" = { fg = "foreground", bg = "#282828" }
+"ui.cursorline.primary" = { bg = "#121212" }
+"ui.statusline" = { fg = "foreground", bg = "background" }
+"ui.statusline.inactive" = { fg = "foreground", bg = "background" }
+"ui.popup" = { fg = "foreground", bg = "#181818" }
+"ui.popup.info" = { fg = "foreground", bg = "#181818" }
+"ui.window" = { fg = "foreground", bg = "background" }
+"ui.help" = { fg = "foreground", bg = "#181818" }
+"ui.text" = { fg = "foreground" }
+"ui.text.focus" = { fg = "foreground" }
+"ui.menu" = { fg = "foreground", bg = "#181818" }
+"ui.menu.selected" = { fg = "background", bg = "keyword" }
+"ui.menu.scroll" = { fg = "foreground", bg = "#3a3a3a" }
+"ui.selection" = { bg = "#3a3a3a" }
+"ui.selection.primary" = { bg = "#3a3a3a" }
+"ui.virtual.whitespace" = { fg = "#3a3a3a" }
+"ui.virtual.ruler" = { bg = "#1a1a1a" }
+
+"comment" = { fg = "comment" }
+"string" = { fg = "string" }
+"constant" = { fg = "constant" }
+"constant.numeric" = { fg = "number" }
+"constant.builtin.boolean" = { fg = "boolean" }
+"keyword" = { fg = "keyword" }
+"function" = { fg = "function" }
+"type" = { fg = "type" }
+"variable" = { fg = "foreground" }
+"variable.parameter" = { fg = "foreground" }
+"operator" = { fg = "operator" }
+"special" = { fg = "preproc" }
+
+"diagnostic.error" = { fg = "diagnostic-error" }
+"diagnostic.warning" = { fg = "diagnostic-warn" }
+"diagnostic.info" = { fg = "diagnostic-info" }
+"diagnostic.hint" = { fg = "diagnostic-hint" }
+
+"markup.heading.1" = { fg = "preproc" }
+"markup.heading.2" = { fg = "preproc" }
+"markup.heading.3" = { fg = "preproc" }
+"markup.heading.4" = { fg = "preproc" }
+"markup.heading.5" = { fg = "preproc" }
+"markup.heading.6" = { fg = "preproc" }
+"markup.heading.marker" = { fg = "preproc" }
+
+[palette]
+background = "#000000"
+foreground = "#dadada"
+comment = "#00b300"
+string = "#00b300"
+keyword = "#ffcc00"
+constant = "#dadada"
+number = "#dadada"
+boolean = "#ffcc00"
+function = "#dadada"
+type = "#ffcc00"
+operator = "#dadada"
+preproc = "#00b300"
+diagnostic-error = "#ff6b6b"
+diagnostic-warn = "#ffcc00"
+diagnostic-info = "#00b300"
+diagnostic-hint = "#dadada"
+
